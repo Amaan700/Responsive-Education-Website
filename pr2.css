@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@1&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+#image img{
+    width:5vw;
+    border:5px solid white;
+    border-radius: 200px;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#nav li{
+    list-style: none;
+}
+#nav a{
+    font-size: 18px;
+    padding-left:4vw;
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+#nav a:hover{
+    color:grey;
+}
+#leftnav{
+    width: 70%;
+}
+#rightnav{
+    width:30%;
+    height: 5.7vw;
+    text-align: right;
+}
+#Searchbar{
+    border:3px grey solid;
+    border-radius:9px ;
+    height:1.7vw;
+    margin-top:25px;
+}
+.background{
+    background:rgba(0,0,0,0.7) url("buildings-690364_1920.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.btn {
+    background:none;
+    color:white;
+    border:2px solid white;
+    border-radius: 8px;
+    padding:8px 20px;
+    margin:7px 0;
+    cursor: pointer;
+}
+.btn:hover{
+    border-color: red;
+    color: red;
+}
+.firstHalf p{
+    color:white;
+    font-family:sans-serif ;
+
+}
+.SecondHalf img{
+    height:10vw;
+    width: 10vw;
+    border:3px solid white;
+    border-radius:150px ;
+}
+.Box-main{
+    padding-top:3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin:auto;
+    height:25vw ;
+}
+.text-big{
+    font-size:41px;
+}
+.text-small{
+    font-size:18px;
+}
+.secondSection{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:auto;
+    max-width:83% ;
+    
+}
+.secondSection img{
+    width: 18vw;
+    height: 14vw;
+    border: 3px black solid;
+    border-radius: 15px;
+    margin-top:50px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.Sectiontag{
+    font-size: 41px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.Subsectiontag{
+    padding-top: 8px;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#second{
+    display:flex;
+    flex-direction: row-reverse;
+}
+.thirdsection{
+    background-color: rgb(248, 244, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.thirdsection h1{
+    padding-top:20px;
+    font-family:'Ubuntu Mono', monospace;
+}
+.input{
+    width:120%;
+    height: 23px;
+    margin-bottom:30px;
+    border:2px solid black;
+    border-radius: 7px;
+}
+#ellaborate{
+    width:120%;
+    margin-bottom:30px;
+    border:2px solid black;
+    border-radius: 7px;
+}
+#submit{
+    background-color: black;
+}
+#Footer{
+    background:rgba(0,0,0,0.7) url("buildings-690364_1920.jpg");
+    background-blend-mode: darken;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    color:White;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

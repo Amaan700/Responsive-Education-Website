@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iEducate Recreating Education</title>
+    <link rel="icon" href="apple-3372581_1280.png">
+    <link rel="stylesheet" href="pr2.css">
+</head>
+
+<body>
+    <script>
+        function mousedown() {
+            let but = document.getElementById("submit");
+            but.innerHTML = "Submitted";
+        }
+        function mouseup() {
+            let but = document.getElementById("submit");
+            but.innerHTML = "Submit";
+        }
+
+    </script>
+    <nav id="navbar" class="background">
+        <div id="leftnav">
+            <ul id="nav">
+                <div id="image"><img src="Laptop.png"></div>
+                <li><a href="home">Home</a></a></li>
+                <li><a href="home">Services</a></a></li>
+                <li><a href="home">Contact us</a></a></li>
+                <li><a href="home">About</a></li>
+
+            </ul>
+        </div>
+        <div id="rightnav">
+            <input type="text" id="Searchbar">
+            <button class="btn btn-sm" type="submit">Search</button>
+        </div>
+    </nav>
+    <section class="background firstSection">
+        <div class="Box-main">
+
+            <div class="firstHalf">
+                <p class="text-big">The Future of Education is here</p>
+                <p class="text-small">In this world of 7 billion people we need to educate all of them.This is the
+                    future of an educated world and we are proud to say that the Future of Eductaion is here</p>
+                <button class="btn btn-sm" type="button">Watch Now</button>
+                <button class="btn btn-sm" type="button">Subscribe</button>
+            </div>
+            <div class="SecondHalf">
+                <img src="https://source.unsplash.com/900x900/?Laptop,Apple" alt="Laptop image">
+            </div>
+        </div>
+    </section>
+    <section class="secondSection">
+        <div class="heading">
+            <p class="Sectiontag">The end of your search is here </p>
+            <p class="Subsectiontag">Education in India is primarily managed by state-run public education system, which
+                fall under the command of the government at three levels: federal, state and local. Under various
+                articles of the Indian Constitution and the Right of Children to Free and Compulsory Education Act,
+                2009, free and compulsory education is provided as a fundamental right to children aged 6 to 14. The
+                approximate ratio of public schools to private schools in India is 7:5. Major policy initiatives in
+                Indian education are numerous. Up until 1976, education policies and implementation were determined
+                legally by each of India’s constitutional states. The 42nd amendment to the constitution in 1976 made
+                education a ‘concurrent subject’. From this point on the central and state governments shared formal
+                responsibility for funding and administration of education.</p>
+        </div>
+        <img src="https://source.unsplash.com/900x900/?Coding,Apple" alt="coding image">
+    </section>
+    <section class="secondSection" id="second">
+        <div class="heading">
+            <p class="Sectiontag">Transforming Education in India</p>
+            <p class="Subsectiontag">In pre-agrarian cultures, children learnt by following their instinct to play.
+                There was no need for enforced education.[4] In agrarian cultures, the skills of agriculture, husbandry,
+                bartering, and building skills can be passed on from adults to children or master to apprentice.
+                Societies agree on the need for their children to learn and absorb their cultural traditions and beliefs
+                and they attempt to do this informally in the family, or by gathering the children together and
+                employing one adult to handle the task, a tutor. This worked well for the landowners, but the children
+                of the landless would be employed from the age of seven as servants. In one source from the turn of the
+                15th century, a French count advised that nobles' huntsmen should "choose a boy servant as young as
+                seven or eight" and that "...this boy should be beaten until he has a proper dread of failing to carry
+                out his masters orders." The document listed chores that the boy would perform daily, and that the boy
+                would sleep in a loft above the kennels in order to attend to the hounds' needs</p>
+        </div>
+        <img src="https://source.unsplash.com/900x900/?Coding,html" alt="coding image">
+    </section>
+    <section class="secondSection">
+        <div class="heading">
+            <p class="Sectiontag">Lets Grow Together </p>
+            <p class="Subsectiontag">With artificial intelligence, technology is increasingly involved in education. New
+                digital competencies and media literacies call for a gender transformative approach (promoting gender
+                equality, sharing control of resources and decision-making and women's empowerment) to the digitization
+                and use of artificial intelligence (AI).Unlocking digital barriers through open educational resources
+                enables global online learning and facilitate Education For All.Media and communication students will
+                require ethics courses to establish their critical thinking skills and training. This will be crucial in
+                a ‘fake news’ era when trust in media professionals is being eroded, especially when news and
+                documentary production is impacted by the capacity of AI to manufacture authentic-looking ‘fake’
+                material. For instance, researchers at the University of Washington have created algorithms based on
+                hours of video footage and audio recordings to create realistic lip-synced videos of Barack Obama.</p>
+        </div>
+        <img src="https://source.unsplash.com/900x900/?Coding,Javascript" alt="coding image">
+    </section>
+    <section class="thirdsection">
+        <h1>Contact US</h1>
+        <br>
+       <form action="/" id="Contact" class="thirdsection" method="POST"> 
+            <input type="text" class="input" name="name" placeholder="Enter your Name">
+            <input type="text" class="input" name="email" placeholder="Enter your Email">
+            <input type="text" class="input" name="phone" placeholder="Enter your Phone Number">
+            <textarea name="ellaborate" id="ellaborate" cols="30" rows="10">Ellaborate Your Concern</textarea>
+            <button class="btn" id="submit" type="submit" onmousedown="mousedown()"
+                onmouseup=" mouseup()">Submit</button>
+        </form>
+    </section>
+    <Footer id="Footer">
+        <p>Copyright &copy;2027-WWW.IEducate.com-All Rights Reserved</p>
+    </Footer>
+</body>
+
+</html>
